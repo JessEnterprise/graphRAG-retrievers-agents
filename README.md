@@ -148,3 +148,14 @@ python test_environment.py
 
 MIT for my custom code. Original workshop materials © Neo4j GraphAcademy.
 
+
+---
+
+## 🏅 Certification
+
+Neo4j & Generative AI Hands-On Workshop — *GraphAcademy*  
+**Sahar Zargarzadeh** — Certificate ID: `05ef5828-0096-4139-8214-f7825c713a8a`  
+Date issued: September 19, 2025  
+
+[View the certificate on GraphAcademy](https://graphacademy.neo4j.com/c/05ef5828-0096-4139-8214-f7825c713a8a/)
+
