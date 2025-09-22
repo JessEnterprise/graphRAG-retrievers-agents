@@ -82,10 +82,10 @@ workshop-genai/
 ## 🖼️ Visuals
 
 ### Retrievers
-![Retrievers](docs/images/retrievers.png)
+![Retrievers](images/retrievers.png)
 
 ### Agent Tools
-![Agent Tools](docs/images/agent_tools.png)
+![Agent Tools](images/agent_tools.png)
 
 ---
 
