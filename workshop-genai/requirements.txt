@@ -1,0 +1,8 @@
+python-dotenv
+neo4j
+neo4j-graphrag[openai]
+jupyter
+langgraph
+langchain
+langchain_neo4j
+langchain_openai
