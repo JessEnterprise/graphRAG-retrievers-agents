@@ -43,7 +43,7 @@ workshop-genai/
 
 ## Additional custom files I added:
 
-- `src/router.py` → **Heuristic + fallback router** (Vector → Hybrid → Text2Cypher)  
+- `router.py` → **Heuristic + fallback router** (Vector → Hybrid → Text2Cypher)  
 - `03_eval_retrievers.ipynb` → **Evaluation notebook** comparing retriever performance
 
 ---
