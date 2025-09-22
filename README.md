@@ -7,7 +7,9 @@ This repo documents how I built **retrievers** and then wrapped them as **agent 
 
 ## 📂 Repository Structure
 workshop-genai/
+
 │
+
 ├── 01_01_vector_retriever.ipynb # Vector Retriever (semantic search only)
 
 ├── 01_02_vector_cypher_retriever.ipynb # Vector + Graph Retriever (hybrid)
